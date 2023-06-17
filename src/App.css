@@ -1,0 +1,43 @@
+
+.join1-container {
+  display: flex;
+  height: 500px;
+}
+
+.join1-left {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+}
+
+.join1-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.join1-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.join1-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.join1-right {
+  flex: 1;
+  padding: 20px;
+  background-color: #d9d9d9;
+}
+
+.join1-droppable {
+  height: 100%;
+  background-color: #fff;
+  border: 2px dashed #999;
+  border-radius: 5px;
+}
+
